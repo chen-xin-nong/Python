@@ -13,4 +13,4 @@ b = input("请再输入一个整数： ")
 c = int(a)
 h =int(b)
 var = c + h
-print(a+" + "+b+" = "+str(var))
+print(a + " + " + b + " = " + str(var))
