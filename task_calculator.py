@@ -26,5 +26,32 @@ def desim():
     e = c + d
     print(f"{c} + {d} = {e}")
 
-integer()
-desim()
+# integer()
+# desim()
+
+
+def calculate():
+    a = input("please input a number: ")
+    b = input("please again input a number: ")
+    c = input("please input an operation sign: ")
+    a = int(a)
+    b = int(b)
+    
+    
+    
+    if c == "+":
+        print(a + b)
+    elif c == "-":
+        print(a - b)
+    elif c == "*":
+        print(a * b)
+    elif c == "/":
+        if b == 0:
+            print("b cannot be zero")
+        else:
+            print(a / b)
+    else:
+        print("invalid input")
+
+
+calculate()
